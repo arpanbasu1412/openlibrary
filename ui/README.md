@@ -1,5 +1,4 @@
 # Openlibrary
-README of ui Folder
 
 ## Prerequisites
  - NodeJs : https://nodejs.org/en/download/
