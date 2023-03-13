@@ -7,6 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AuthorComponent implements OnInit {
 
+  title = 'Authors Management'
+  authors = [{
+    "id": 1,
+    "name": "Arpan Basu",
+    "BirthDate": "14.12.2002",
+    "nationality": "Indian"
+  }]
+  //authors = []
+  
+  isGreen = true
+
   constructor() { }
 
   ngOnInit(): void {

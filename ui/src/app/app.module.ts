@@ -9,6 +9,7 @@ import { AuthorComponent } from './author/author.component';
 import { LoanComponent } from './loan/loan.component';
 import { StudentComponent } from './student/student.component';
 import { PublisherComponent } from './publisher/publisher.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PublisherComponent } from './publisher/publisher.component';
     AuthorComponent,
     LoanComponent,
     StudentComponent,
-    PublisherComponent
+    PublisherComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,

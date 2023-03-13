@@ -7,6 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminComponent implements OnInit {
 
+  title = 'Admins Management'
+  admins = [{
+    "id": 1,
+    "name": "Arpan Basu",
+    "username": "arpanbasu1412",
+    "password": "108"
+  }]
+  //admins = []
+
+
+  isGreen = true
+
+
   constructor() { }
 
   ngOnInit(): void {
