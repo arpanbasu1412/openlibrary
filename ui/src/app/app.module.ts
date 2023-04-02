@@ -6,10 +6,19 @@ import { AppComponent } from './app.component';
 import { BookComponent } from './book/book.component';
 import { AdminComponent } from './admin/admin.component';
 import { AuthorComponent } from './author/author.component';
-import { LoanComponent } from './loan/loan.component';
 import { StudentComponent } from './student/student.component';
+import { LoanComponent } from './loan/loan.component';
 import { PublisherComponent } from './publisher/publisher.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { HomeComponent } from './home/home.component';
+import { AddAdminsComponent } from './add-admin/add-admin.component';
+import { AddBooksComponent } from './add-books/add-books.component';
+import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
+import { HttpClientModule} from '@angular/common/http';
+import { AddStudentsComponent } from './add-students/add-students.component';
+import { AddPublishersComponent } from './add-publishers/add-publishers.component';
+import { AddAuthorsComponent } from './add-authors/add-authors.component';
+import { AddLoansComponent } from './add-loans/add-loans.component'
 
 @NgModule({
   declarations: [
@@ -17,14 +26,24 @@ import { SidenavComponent } from './sidenav/sidenav.component';
     BookComponent,
     AdminComponent,
     AuthorComponent,
-    LoanComponent,
     StudentComponent,
+    LoanComponent,
     PublisherComponent,
-    SidenavComponent
+    SidenavComponent,
+    HomeComponent,
+    AddAdminsComponent,
+    AddBooksComponent,
+    AddStudentsComponent,
+    AddPublishersComponent,
+    AddAuthorsComponent,
+    AddLoansComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule, 
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
